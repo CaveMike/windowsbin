@@ -1,0 +1,1 @@
+netstat -an > c:\bin\n0.txt

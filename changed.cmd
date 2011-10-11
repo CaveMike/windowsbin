@@ -1,0 +1,2 @@
+@dir /a-d-r /on/s/b/p | grep -v -i debug | grep -v -i release | grep -v -i "\.ncb" | grep -v -i "\.suo" | grep -v -i "\.aps" | grep -v -i "\.class" | grep -v -i "\.jar" | grep -v -i "\.obj" | grep -v -i "\.o" | sort
+@dir /a-d-r /on/s/b/p | grep -v -i debug | grep -v -i release | grep -v -i "\.ncb" | grep -v -i "\.suo" | grep -v -i "\.aps" | grep -v -i "\.class" | grep -v -i "\.jar" | grep -v -i "\.obj" | grep -v -i "\.o" | wc -l

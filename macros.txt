@@ -1,0 +1,54 @@
+d               = dir $*
+
+dd              = dir /ad $*
+da              = dir /a-da $*
+df              = dir /a-d $*
+do              = dir /a-dr $*
+dw              = dir /a-d-r $*
+dx              = dir /a: $*
+
+ds              = dir /a-d /o-s $*
+dt              = dir /od
+dos             = dir /o-s
+doe             = dir /oe
+
+e               = notepad.exe $*
+w               = write.exe $*
+t               = type $*
+nd              = md $* $T cd $*
+
+ro              = attrib.exe +r $*
+rw              = attrib.exe -r $*
+
+cw              = c:\dev\cw\cw32.exe -nosplash    -S-           -C-                         $*
+cx              = c:\dev\cw\cw32.exe -nosplash -N -S-           -Cc:\dev\cw\mike\cwright.ini -M $*
+ea              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\a.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+eb              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\b.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+ed              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\d.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+ee              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\e.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+ef              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\f.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+eg              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\g.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+eh              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\h.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+ei              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\i.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+ej              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\j.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+ek              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\k.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+el              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\l.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+em              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\m.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+en              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\n.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+eo              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\o.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+ep              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\p.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+eq              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\q.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+er              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\r.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+es              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\s.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+et              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\t.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+eu              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\u.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+ev              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\v.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+ew              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\w.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+ex              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\x.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+ey              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\y.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+ez              = c:\dev\cw\cw32.exe -nosplash    -Sc:\dev\cw\z.pst -Cc:\dev\cw\mike\cwright.ini -M $*
+
+dev             = cd /d c:\dev
+doc             = cd /d "%USERPROFILE%\My Documents"
+down            = cd /d "%USERPROFILE%\My Documents\Downloads"
+pro             = cd /d "%ProgramFiles%"
